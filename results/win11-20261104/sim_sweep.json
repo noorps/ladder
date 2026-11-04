@@ -1,0 +1,1857 @@
+{
+ "label": "win11-20261104",
+ "started": "2026-11-04T23:52:13+00:00",
+ "env": {
+  "cpu": "13th Gen Intel(R) Core(TM) i7-1355U",
+  "logical_cpus": 12,
+  "os": "Windows 11",
+  "python": "3.13.12",
+  "ortools": "9.15.6755",
+  "simpy": "4.1.2"
+ },
+ "config": {
+  "label": "win11-20261104",
+  "seeds": 3,
+  "units": 5000,
+  "warmup": 500,
+  "quick": false
+ },
+ "cvs": [
+  0.0,
+  0.05,
+  0.1,
+  0.15,
+  0.2,
+  0.3,
+  0.4,
+  0.5,
+  0.75,
+  1.0
+ ],
+ "buffers": [
+  0,
+  1,
+  2,
+  4,
+  8
+ ],
+ "lines": [
+  {
+   "name": "Sawyer_c30",
+   "n": 30,
+   "cycle_time": 30,
+   "stations": 12,
+   "loads": [
+    30,
+    30,
+    28,
+    29,
+    29,
+    21,
+    24,
+    27,
+    26,
+    25,
+    25,
+    30
+   ],
+   "assignment": [
+    3,
+    0,
+    0,
+    4,
+    4,
+    4,
+    5,
+    6,
+    7,
+    0,
+    11,
+    1,
+    1,
+    2,
+    4,
+    1,
+    4,
+    8,
+    10,
+    2,
+    3,
+    6,
+    8,
+    5,
+    7,
+    7,
+    9,
+    10,
+    11,
+    11
+   ],
+   "line_efficiency": 0.9,
+   "paper_uph": 120.0,
+   "grid": [
+    {
+     "cv": 0.0,
+     "buffer": 0,
+     "actual_uph_mean": 120.0,
+     "actual_over_paper_mean": 1.0,
+     "actual_over_paper_min": 1.0,
+     "actual_over_paper_max": 1.0,
+     "mean_utilization": 0.9,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.0,
+     "buffer": 1,
+     "actual_uph_mean": 120.0,
+     "actual_over_paper_mean": 1.0,
+     "actual_over_paper_min": 1.0,
+     "actual_over_paper_max": 1.0,
+     "mean_utilization": 0.9,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.0,
+     "buffer": 2,
+     "actual_uph_mean": 120.0,
+     "actual_over_paper_mean": 1.0,
+     "actual_over_paper_min": 1.0,
+     "actual_over_paper_max": 1.0,
+     "mean_utilization": 0.9,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.0,
+     "buffer": 4,
+     "actual_uph_mean": 120.0,
+     "actual_over_paper_mean": 1.0,
+     "actual_over_paper_min": 1.0,
+     "actual_over_paper_max": 1.0,
+     "mean_utilization": 0.9,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.0,
+     "buffer": 8,
+     "actual_uph_mean": 120.0,
+     "actual_over_paper_mean": 1.0,
+     "actual_over_paper_min": 1.0,
+     "actual_over_paper_max": 1.0,
+     "mean_utilization": 0.9,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.05,
+     "buffer": 0,
+     "actual_uph_mean": 116.39728922690547,
+     "actual_over_paper_mean": 0.9699774102242124,
+     "actual_over_paper_min": 0.9696678550542314,
+     "actual_over_paper_max": 0.9701659015422369,
+     "mean_utilization": 0.8730110250914017,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.05,
+     "buffer": 1,
+     "actual_uph_mean": 119.77594208402064,
+     "actual_over_paper_mean": 0.998132850700172,
+     "actual_over_paper_min": 0.9977822503130487,
+     "actual_over_paper_max": 0.9983913988610869,
+     "mean_utilization": 0.8983003760532502,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.05,
+     "buffer": 2,
+     "actual_uph_mean": 119.88294948567734,
+     "actual_over_paper_mean": 0.9990245790473113,
+     "actual_over_paper_min": 0.9988912518403917,
+     "actual_over_paper_max": 0.9990916325755587,
+     "mean_utilization": 0.899280100452207,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.05,
+     "buffer": 4,
+     "actual_uph_mean": 119.920607444017,
+     "actual_over_paper_mean": 0.9993383953668084,
+     "actual_over_paper_min": 0.9990868834437475,
+     "actual_over_paper_max": 0.9995935672183888,
+     "mean_utilization": 0.8997008099117377,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.05,
+     "buffer": 8,
+     "actual_uph_mean": 119.920607444017,
+     "actual_over_paper_mean": 0.9993383953668084,
+     "actual_over_paper_min": 0.9990868834437475,
+     "actual_over_paper_max": 0.9995935672183888,
+     "mean_utilization": 0.899721244939213,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.1,
+     "buffer": 0,
+     "actual_uph_mean": 111.66916701452861,
+     "actual_over_paper_mean": 0.9305763917877384,
+     "actual_over_paper_min": 0.9300144544113519,
+     "actual_over_paper_max": 0.9309951236792828,
+     "mean_utilization": 0.8375588218567711,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.1,
+     "buffer": 1,
+     "actual_uph_mean": 119.07040193712487,
+     "actual_over_paper_mean": 0.9922533494760407,
+     "actual_over_paper_min": 0.9914238857772545,
+     "actual_over_paper_max": 0.9927699538954557,
+     "mean_utilization": 0.8929770073826474,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.1,
+     "buffer": 2,
+     "actual_uph_mean": 119.54722663938122,
+     "actual_over_paper_mean": 0.9962268886615102,
+     "actual_over_paper_min": 0.9953945785955388,
+     "actual_over_paper_max": 0.9968084094139471,
+     "mean_utilization": 0.8965397553312361,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.1,
+     "buffer": 4,
+     "actual_uph_mean": 119.76326664395144,
+     "actual_over_paper_mean": 0.9980272220329288,
+     "actual_over_paper_min": 0.9978386333955503,
+     "actual_over_paper_max": 0.9981985785031999,
+     "mean_utilization": 0.8985299592875093,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.1,
+     "buffer": 8,
+     "actual_uph_mean": 119.8354060545624,
+     "actual_over_paper_mean": 0.9986283837880201,
+     "actual_over_paper_min": 0.9980992667587658,
+     "actual_over_paper_max": 0.999108200519853,
+     "mean_utilization": 0.8993388486774633,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.15,
+     "buffer": 0,
+     "actual_uph_mean": 106.85166916481755,
+     "actual_over_paper_mean": 0.8904305763734796,
+     "actual_over_paper_min": 0.8898230861876295,
+     "actual_over_paper_max": 0.890926328200581,
+     "mean_utilization": 0.8014476754306149,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.15,
+     "buffer": 1,
+     "actual_uph_mean": 117.89352603808197,
+     "actual_over_paper_mean": 0.9824460503173498,
+     "actual_over_paper_min": 0.9820027982248185,
+     "actual_over_paper_max": 0.982910721675453,
+     "mean_utilization": 0.884325756482322,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.15,
+     "buffer": 2,
+     "actual_uph_mean": 118.94663882715948,
+     "actual_over_paper_mean": 0.991221990226329,
+     "actual_over_paper_min": 0.9894441438399737,
+     "actual_over_paper_max": 0.9921897199722995,
+     "mean_utilization": 0.891966848605517,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.15,
+     "buffer": 4,
+     "actual_uph_mean": 119.46840340525553,
+     "actual_over_paper_mean": 0.9955700283771295,
+     "actual_over_paper_min": 0.9947453670004847,
+     "actual_over_paper_max": 0.996023120835218,
+     "mean_utilization": 0.8961119808332937,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.15,
+     "buffer": 8,
+     "actual_uph_mean": 119.72593705570175,
+     "actual_over_paper_mean": 0.9977161421308479,
+     "actual_over_paper_min": 0.997127120515723,
+     "actual_over_paper_max": 0.9981204501041165,
+     "mean_utilization": 0.8985946133868407,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.2,
+     "buffer": 0,
+     "actual_uph_mean": 102.22805221655689,
+     "actual_over_paper_mean": 0.8519004351379741,
+     "actual_over_paper_min": 0.8511995583091584,
+     "actual_over_paper_max": 0.8525472860907207,
+     "mean_utilization": 0.7667987945556428,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.2,
+     "buffer": 1,
+     "actual_uph_mean": 116.03633292671107,
+     "actual_over_paper_mean": 0.9669694410559256,
+     "actual_over_paper_min": 0.9661585969944217,
+     "actual_over_paper_max": 0.9674087549708065,
+     "mean_utilization": 0.870519469829511,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.2,
+     "buffer": 2,
+     "actual_uph_mean": 118.0592390726036,
+     "actual_over_paper_mean": 0.9838269922716968,
+     "actual_over_paper_min": 0.9822440245920989,
+     "actual_over_paper_max": 0.9846739230096638,
+     "mean_utilization": 0.8854755422764683,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.2,
+     "buffer": 4,
+     "actual_uph_mean": 119.08527504714648,
+     "actual_over_paper_mean": 0.992377292059554,
+     "actual_over_paper_min": 0.9902060717485632,
+     "actual_over_paper_max": 0.9937715410496926,
+     "mean_utilization": 0.89298547185553,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.2,
+     "buffer": 8,
+     "actual_uph_mean": 119.51819684621425,
+     "actual_over_paper_mean": 0.9959849737184522,
+     "actual_over_paper_min": 0.9955649367808623,
+     "actual_over_paper_max": 0.9967800490736245,
+     "mean_utilization": 0.8969858227903867,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.3,
+     "buffer": 0,
+     "actual_uph_mean": 93.5523348689846,
+     "actual_over_paper_mean": 0.7796027905748716,
+     "actual_over_paper_min": 0.7787137472730319,
+     "actual_over_paper_max": 0.7808082515197171,
+     "mean_utilization": 0.7018281551138247,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.3,
+     "buffer": 1,
+     "actual_uph_mean": 110.78716518113917,
+     "actual_over_paper_mean": 0.923226376509493,
+     "actual_over_paper_min": 0.9217994602609048,
+     "actual_over_paper_max": 0.9240338563123814,
+     "mean_utilization": 0.8313529517802012,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.3,
+     "buffer": 2,
+     "actual_uph_mean": 115.0039910193334,
+     "actual_over_paper_mean": 0.9583665918277783,
+     "actual_over_paper_min": 0.9579760511804574,
+     "actual_over_paper_max": 0.9589508437726687,
+     "mean_utilization": 0.86291483171364,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.3,
+     "buffer": 4,
+     "actual_uph_mean": 117.74599593003308,
+     "actual_over_paper_mean": 0.9812166327502757,
+     "actual_over_paper_min": 0.978169200641228,
+     "actual_over_paper_max": 0.9828528131476528,
+     "mean_utilization": 0.8830122402035778,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.3,
+     "buffer": 8,
+     "actual_uph_mean": 118.90720803742255,
+     "actual_over_paper_mean": 0.9908934003118546,
+     "actual_over_paper_min": 0.9883621481315924,
+     "actual_over_paper_max": 0.9926134124345982,
+     "mean_utilization": 0.8920733607132619,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.4,
+     "buffer": 0,
+     "actual_uph_mean": 85.71140094558184,
+     "actual_over_paper_mean": 0.7142616745465152,
+     "actual_over_paper_min": 0.7133209621954663,
+     "actual_over_paper_max": 0.7160742487613286,
+     "mean_utilization": 0.6431160196822615,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.4,
+     "buffer": 1,
+     "actual_uph_mean": 104.62670896841087,
+     "actual_over_paper_mean": 0.8718892414034239,
+     "actual_over_paper_min": 0.8701657242916504,
+     "actual_over_paper_max": 0.8728398611984963,
+     "mean_utilization": 0.7852853352908671,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.4,
+     "buffer": 2,
+     "actual_uph_mean": 110.7996733486725,
+     "actual_over_paper_mean": 0.9233306112389373,
+     "actual_over_paper_min": 0.9222681891916972,
+     "actual_over_paper_max": 0.9241422223129558,
+     "mean_utilization": 0.8316479836849169,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.4,
+     "buffer": 4,
+     "actual_uph_mean": 115.2577950609724,
+     "actual_over_paper_mean": 0.9604816255081032,
+     "actual_over_paper_min": 0.9589315472496234,
+     "actual_over_paper_max": 0.9625445229492733,
+     "mean_utilization": 0.8649291957894052,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.4,
+     "buffer": 8,
+     "actual_uph_mean": 117.97330683410223,
+     "actual_over_paper_mean": 0.9831108902841854,
+     "actual_over_paper_min": 0.9790370917897024,
+     "actual_over_paper_max": 0.985311567842664,
+     "mean_utilization": 0.8847458661439299,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.5,
+     "buffer": 0,
+     "actual_uph_mean": 78.78994455563334,
+     "actual_over_paper_mean": 0.6565828712969446,
+     "actual_over_paper_min": 0.6551264105465274,
+     "actual_over_paper_max": 0.6587311485688282,
+     "mean_utilization": 0.5913190828926204,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.5,
+     "buffer": 1,
+     "actual_uph_mean": 98.24510120047462,
+     "actual_over_paper_mean": 0.8187091766706218,
+     "actual_over_paper_min": 0.8170567257269609,
+     "actual_over_paper_max": 0.8197301664644226,
+     "mean_utilization": 0.7375260985043385,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.5,
+     "buffer": 2,
+     "actual_uph_mean": 105.97895268356793,
+     "actual_over_paper_mean": 0.8831579390297327,
+     "actual_over_paper_min": 0.8819673798843445,
+     "actual_over_paper_max": 0.8843400467609911,
+     "mean_utilization": 0.7957270999174256,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.5,
+     "buffer": 4,
+     "actual_uph_mean": 112.10013895906086,
+     "actual_over_paper_mean": 0.9341678246588406,
+     "actual_over_paper_min": 0.9328264244500095,
+     "actual_over_paper_max": 0.9361841567915441,
+     "mean_utilization": 0.8416139738138536,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.5,
+     "buffer": 8,
+     "actual_uph_mean": 116.40377832221331,
+     "actual_over_paper_mean": 0.9700314860184442,
+     "actual_over_paper_min": 0.9673535063275541,
+     "actual_over_paper_max": 0.9726360795830522,
+     "mean_utilization": 0.8732426600619144,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.75,
+     "buffer": 0,
+     "actual_uph_mean": 65.17102488904742,
+     "actual_over_paper_mean": 0.543091874075395,
+     "actual_over_paper_min": 0.5405006658177312,
+     "actual_over_paper_max": 0.5460473141095085,
+     "mean_utilization": 0.48949723629679154,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.75,
+     "buffer": 1,
+     "actual_uph_mean": 83.53284556578804,
+     "actual_over_paper_mean": 0.696107046381567,
+     "actual_over_paper_min": 0.694865702061279,
+     "actual_over_paper_max": 0.6985291050282568,
+     "mean_utilization": 0.6275293913425977,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.75,
+     "buffer": 2,
+     "actual_uph_mean": 93.19490771673054,
+     "actual_over_paper_mean": 0.7766242309727543,
+     "actual_over_paper_min": 0.7743334303855722,
+     "actual_over_paper_max": 0.7797804199133177,
+     "mean_utilization": 0.7002955756208399,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.75,
+     "buffer": 4,
+     "actual_uph_mean": 102.91848713980134,
+     "actual_over_paper_mean": 0.8576540594983445,
+     "actual_over_paper_min": 0.8554314169408606,
+     "actual_over_paper_max": 0.8599559968512394,
+     "mean_utilization": 0.7733291046101464,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.75,
+     "buffer": 8,
+     "actual_uph_mean": 110.49804337952935,
+     "actual_over_paper_mean": 0.9208170281627446,
+     "actual_over_paper_min": 0.9180600517655475,
+     "actual_over_paper_max": 0.925311945956088,
+     "mean_utilization": 0.8299985900850859,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 1.0,
+     "buffer": 0,
+     "actual_uph_mean": 55.66564984324489,
+     "actual_over_paper_mean": 0.46388041536037417,
+     "actual_over_paper_min": 0.4604420749410514,
+     "actual_over_paper_max": 0.46754749475377333,
+     "mean_utilization": 0.41852502880779197,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 1.0,
+     "buffer": 1,
+     "actual_uph_mean": 71.89743667213038,
+     "actual_over_paper_mean": 0.5991453056010866,
+     "actual_over_paper_min": 0.5954827258557119,
+     "actual_over_paper_max": 0.6037202639867745,
+     "mean_utilization": 0.5406466476078055,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 1.0,
+     "buffer": 2,
+     "actual_uph_mean": 81.5613478915324,
+     "actual_over_paper_mean": 0.6796778990961033,
+     "actual_over_paper_min": 0.6757295095928079,
+     "actual_over_paper_max": 0.6848329911403818,
+     "mean_utilization": 0.6134795137318241,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 1.0,
+     "buffer": 4,
+     "actual_uph_mean": 93.10571403199026,
+     "actual_over_paper_mean": 0.7758809502665854,
+     "actual_over_paper_min": 0.7716220492077188,
+     "actual_over_paper_max": 0.7830001103857366,
+     "mean_utilization": 0.7006582033900384,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 1.0,
+     "buffer": 8,
+     "actual_uph_mean": 103.2763997769636,
+     "actual_over_paper_mean": 0.86063666480803,
+     "actual_over_paper_min": 0.8568725570916853,
+     "actual_over_paper_max": 0.8674727721008728,
+     "mean_utilization": 0.7770849595580177,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    }
+   ],
+   "reference_point": {
+    "cv": 0.3,
+    "buffer": 1,
+    "seed": 1,
+    "warmup": 500,
+    "units": 5000,
+    "stations": 12,
+    "cycle_time": 30,
+    "loads": [
+     30,
+     30,
+     28,
+     29,
+     29,
+     21,
+     24,
+     27,
+     26,
+     25,
+     25,
+     30
+    ],
+    "paper_uph": 120.0,
+    "bottleneck_uph": 120.0,
+    "actual_uph": 110.61593523130857,
+    "actual_over_paper": 0.9217994602609048,
+    "uph_loss_pct": 7.820053973909524,
+    "paper_upph": 10.0,
+    "actual_upph": 9.217994602609048,
+    "utilization": [
+     0.919746611914646,
+     0.9254211317680232,
+     0.8564692562708344,
+     0.889130849927707,
+     0.890376553897436,
+     0.6446259990040296,
+     0.7345804427620347,
+     0.8309516094199052,
+     0.7952176268047603,
+     0.7721064546532694,
+     0.7713404200987911,
+     0.9218051830530662
+    ],
+    "starved": [
+     0.0,
+     0.0372940798460696,
+     0.08769676522106483,
+     0.08159448560280473,
+     0.10891215179367299,
+     0.34379795810272334,
+     0.23428379551034692,
+     0.15034059626777418,
+     0.1783594720829914,
+     0.18194917788693968,
+     0.14728443295237786,
+     0.0781948169469338
+    ],
+    "blocked": [
+     0.08025338808535404,
+     0.03728478838590711,
+     0.05583397850810091,
+     0.029274664469488388,
+     0.0007112943088909065,
+     0.011576042893247013,
+     0.031135761727618363,
+     0.01870779431232058,
+     0.026422901112248282,
+     0.04594436745979093,
+     0.08137514694883104,
+     0.0
+    ],
+    "mean_utilization": 0.8293143449645419,
+    "oee": {
+     "availability": 1.0,
+     "performance": 0.9217994602609048,
+     "quality": 1.0,
+     "oee": 0.9217994602609048,
+     "assumptions": "availability 1.0 (no breakdowns or changeovers modelled), quality 1.0 (no defects or rework modelled), performance = simulated uph / paper uph (3600 / cycle time)"
+    }
+   },
+   "reference_point_cv0": {
+    "cv": 0.0,
+    "buffer": 0,
+    "seed": 1,
+    "warmup": 500,
+    "units": 5000,
+    "stations": 12,
+    "cycle_time": 30,
+    "loads": [
+     30,
+     30,
+     28,
+     29,
+     29,
+     21,
+     24,
+     27,
+     26,
+     25,
+     25,
+     30
+    ],
+    "paper_uph": 120.0,
+    "bottleneck_uph": 120.0,
+    "actual_uph": 120.0,
+    "actual_over_paper": 1.0,
+    "uph_loss_pct": 0.0,
+    "paper_upph": 10.0,
+    "actual_upph": 10.0,
+    "utilization": [
+     1.0,
+     1.0,
+     0.9333333333333333,
+     0.9666666666666667,
+     0.9666666666666667,
+     0.7,
+     0.8,
+     0.9,
+     0.8666666666666667,
+     0.8333333333333334,
+     0.8333333333333334,
+     1.0
+    ],
+    "starved": [
+     0.0,
+     0.0,
+     0.06666666666666667,
+     0.03333333333333333,
+     0.03333333333333333,
+     0.3,
+     0.2,
+     0.1,
+     0.13333333333333333,
+     0.16666666666666666,
+     0.16666666666666666,
+     0.0
+    ],
+    "blocked": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "mean_utilization": 0.9,
+    "oee": {
+     "availability": 1.0,
+     "performance": 1.0,
+     "quality": 1.0,
+     "oee": 1.0,
+     "assumptions": "availability 1.0 (no breakdowns or changeovers modelled), quality 1.0 (no defects or rework modelled), performance = simulated uph / paper uph (3600 / cycle time)"
+    }
+   }
+  },
+  {
+   "name": "instance_n=50_1_c1000",
+   "n": 50,
+   "cycle_time": 1000,
+   "stations": 8,
+   "loads": [
+    987,
+    958,
+    991,
+    963,
+    991,
+    971,
+    987,
+    428
+   ],
+   "assignment": [
+    2,
+    0,
+    6,
+    0,
+    2,
+    1,
+    2,
+    0,
+    0,
+    7,
+    0,
+    1,
+    1,
+    0,
+    1,
+    5,
+    0,
+    2,
+    4,
+    2,
+    0,
+    1,
+    3,
+    7,
+    1,
+    3,
+    3,
+    4,
+    3,
+    4,
+    5,
+    2,
+    2,
+    4,
+    6,
+    3,
+    4,
+    4,
+    5,
+    6,
+    5,
+    7,
+    4,
+    5,
+    7,
+    6,
+    6,
+    5,
+    6,
+    6
+   ],
+   "line_efficiency": 0.9095,
+   "paper_uph": 3.6,
+   "grid": [
+    {
+     "cv": 0.0,
+     "buffer": 0,
+     "actual_uph_mean": 3.6326942482341074,
+     "actual_over_paper_mean": 1.0090817356205852,
+     "actual_over_paper_min": 1.0090817356205852,
+     "actual_over_paper_max": 1.0090817356205852,
+     "mean_utilization": 0.9177598385469223,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.0,
+     "buffer": 1,
+     "actual_uph_mean": 3.6326942482341074,
+     "actual_over_paper_mean": 1.0090817356205852,
+     "actual_over_paper_min": 1.0090817356205852,
+     "actual_over_paper_max": 1.0090817356205852,
+     "mean_utilization": 0.9177598385469223,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.0,
+     "buffer": 2,
+     "actual_uph_mean": 3.6326942482341074,
+     "actual_over_paper_mean": 1.0090817356205852,
+     "actual_over_paper_min": 1.0090817356205852,
+     "actual_over_paper_max": 1.0090817356205852,
+     "mean_utilization": 0.917809308779011,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.0,
+     "buffer": 4,
+     "actual_uph_mean": 3.6326942482341074,
+     "actual_over_paper_mean": 1.0090817356205852,
+     "actual_over_paper_min": 1.0090817356205852,
+     "actual_over_paper_max": 1.0090817356205852,
+     "mean_utilization": 0.9179569122098888,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.0,
+     "buffer": 8,
+     "actual_uph_mean": 3.6326942482341074,
+     "actual_over_paper_mean": 1.0090817356205852,
+     "actual_over_paper_min": 1.0090817356205852,
+     "actual_over_paper_max": 1.0090817356205852,
+     "mean_utilization": 0.918252774974773,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.05,
+     "buffer": 0,
+     "actual_uph_mean": 3.4869007411975566,
+     "actual_over_paper_mean": 0.9685835392215435,
+     "actual_over_paper_min": 0.9684377062604327,
+     "actual_over_paper_max": 0.9687105375982664,
+     "mean_utilization": 0.8808676009903224,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.05,
+     "buffer": 1,
+     "actual_uph_mean": 3.6275715826750132,
+     "actual_over_paper_mean": 1.0076587729652813,
+     "actual_over_paper_min": 1.0071007702283852,
+     "actual_over_paper_max": 1.007963046462987,
+     "mean_utilization": 0.916453604530043,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.05,
+     "buffer": 2,
+     "actual_uph_mean": 3.629523075633274,
+     "actual_over_paper_mean": 1.008200854342576,
+     "actual_over_paper_min": 1.0075449844505855,
+     "actual_over_paper_max": 1.008592196189746,
+     "mean_utilization": 0.9170338971939257,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.05,
+     "buffer": 4,
+     "actual_uph_mean": 3.629523075633274,
+     "actual_over_paper_mean": 1.008200854342576,
+     "actual_over_paper_min": 1.0075449844505855,
+     "actual_over_paper_max": 1.008592196189746,
+     "mean_utilization": 0.9173688120282689,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.05,
+     "buffer": 8,
+     "actual_uph_mean": 3.629523075633274,
+     "actual_over_paper_mean": 1.008200854342576,
+     "actual_over_paper_min": 1.0075449844505855,
+     "actual_over_paper_max": 1.008592196189746,
+     "mean_utilization": 0.9176763456649404,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.1,
+     "buffer": 0,
+     "actual_uph_mean": 3.313228929232802,
+     "actual_over_paper_mean": 0.9203413692313337,
+     "actual_over_paper_min": 0.9202549859208259,
+     "actual_over_paper_max": 0.9204515843232457,
+     "mean_utilization": 0.8369510169699313,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.1,
+     "buffer": 1,
+     "actual_uph_mean": 3.6014786123754896,
+     "actual_over_paper_mean": 1.0004107256598582,
+     "actual_over_paper_min": 1.000172536549751,
+     "actual_over_paper_max": 1.0008290254960568,
+     "mean_utilization": 0.9098265924428112,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.1,
+     "buffer": 2,
+     "actual_uph_mean": 3.6195453594783813,
+     "actual_over_paper_mean": 1.0054292665217726,
+     "actual_over_paper_min": 1.0047329442576036,
+     "actual_over_paper_max": 1.0057781141488373,
+     "mean_utilization": 0.9144799517335981,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.1,
+     "buffer": 4,
+     "actual_uph_mean": 3.6259359136835623,
+     "actual_over_paper_mean": 1.0072044204676562,
+     "actual_over_paper_min": 1.0059705328111652,
+     "actual_over_paper_max": 1.0080211139868718,
+     "mean_utilization": 0.9163123634183724,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.1,
+     "buffer": 8,
+     "actual_uph_mean": 3.6259359136835623,
+     "actual_over_paper_mean": 1.0072044204676562,
+     "actual_over_paper_min": 1.0059705328111652,
+     "actual_over_paper_max": 1.0080211139868718,
+     "mean_utilization": 0.91701898078316,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.15,
+     "buffer": 0,
+     "actual_uph_mean": 3.15056023274026,
+     "actual_over_paper_mean": 0.8751556202056276,
+     "actual_over_paper_min": 0.8750974072216757,
+     "actual_over_paper_max": 0.8752687454950012,
+     "mean_utilization": 0.7958327906904182,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.15,
+     "buffer": 1,
+     "actual_uph_mean": 3.5446485206848712,
+     "actual_over_paper_mean": 0.9846245890791309,
+     "actual_over_paper_min": 0.9841882344385251,
+     "actual_over_paper_max": 0.9853009756016463,
+     "mean_utilization": 0.895387600968634,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.15,
+     "buffer": 2,
+     "actual_uph_mean": 3.593359549333462,
+     "actual_over_paper_mean": 0.9981554303704061,
+     "actual_over_paper_min": 0.997699040375465,
+     "actual_over_paper_max": 0.9985000732840342,
+     "mean_utilization": 0.9077916766487898,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.15,
+     "buffer": 4,
+     "actual_uph_mean": 3.616312862351555,
+     "actual_over_paper_mean": 1.0045313506532096,
+     "actual_over_paper_min": 1.003806653579719,
+     "actual_over_paper_max": 1.0052048633099666,
+     "mean_utilization": 0.9138383013309092,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.15,
+     "buffer": 8,
+     "actual_uph_mean": 3.6215271975759946,
+     "actual_over_paper_mean": 1.005979777104443,
+     "actual_over_paper_min": 1.0044085214666663,
+     "actual_over_paper_max": 1.0072354377886565,
+     "mean_utilization": 0.9158208323501196,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.2,
+     "buffer": 0,
+     "actual_uph_mean": 2.9997077515618074,
+     "actual_over_paper_mean": 0.8332521532116131,
+     "actual_over_paper_min": 0.8331539457062471,
+     "actual_over_paper_max": 0.8333530669189491,
+     "mean_utilization": 0.7577179574132602,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.2,
+     "buffer": 1,
+     "actual_uph_mean": 3.4661718710514724,
+     "actual_over_paper_mean": 0.9628255197365201,
+     "actual_over_paper_min": 0.9619322749428482,
+     "actual_over_paper_max": 0.9635242793590596,
+     "mean_utilization": 0.8755200966261437,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.2,
+     "buffer": 2,
+     "actual_uph_mean": 3.549754130148554,
+     "actual_over_paper_mean": 0.9860428139301538,
+     "actual_over_paper_min": 0.9853156685184904,
+     "actual_over_paper_max": 0.986599046850266,
+     "mean_utilization": 0.8967734416041488,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.2,
+     "buffer": 4,
+     "actual_uph_mean": 3.5964604839673204,
+     "actual_over_paper_mean": 0.9990168011020334,
+     "actual_over_paper_min": 0.9989800486085013,
+     "actual_over_paper_max": 0.999085993214153,
+     "mean_utilization": 0.9087910270978331,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.2,
+     "buffer": 8,
+     "actual_uph_mean": 3.6156353591934107,
+     "actual_over_paper_mean": 1.004343155331503,
+     "actual_over_paper_min": 1.0028597847492493,
+     "actual_over_paper_max": 1.005706605416491,
+     "mean_utilization": 0.914131301529807,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.3,
+     "buffer": 0,
+     "actual_uph_mean": 2.7314676018180992,
+     "actual_over_paper_mean": 0.7587410005050274,
+     "actual_over_paper_min": 0.758545449271431,
+     "actual_over_paper_max": 0.7588883854849465,
+     "mean_utilization": 0.6899763168964822,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.3,
+     "buffer": 1,
+     "actual_uph_mean": 3.279200944405073,
+     "actual_over_paper_mean": 0.9108891512236315,
+     "actual_over_paper_min": 0.9100409368924414,
+     "actual_over_paper_max": 0.9118509016274549,
+     "mean_utilization": 0.8283294673176526,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.3,
+     "buffer": 2,
+     "actual_uph_mean": 3.428721468842614,
+     "actual_over_paper_mean": 0.9524226302340594,
+     "actual_over_paper_min": 0.9510067802049356,
+     "actual_over_paper_max": 0.953674523395325,
+     "mean_utilization": 0.8660966173317984,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.3,
+     "buffer": 4,
+     "actual_uph_mean": 3.5302342468403354,
+     "actual_over_paper_mean": 0.9806206241223155,
+     "actual_over_paper_min": 0.9789055430104393,
+     "actual_over_paper_max": 0.9814894368349654,
+     "mean_utilization": 0.8920167919003458,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.3,
+     "buffer": 8,
+     "actual_uph_mean": 3.585159619566775,
+     "actual_over_paper_mean": 0.9958776721018818,
+     "actual_over_paper_min": 0.9948179178311691,
+     "actual_over_paper_max": 0.9967973773043352,
+     "mean_utilization": 0.9063514689904132,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.4,
+     "buffer": 0,
+     "actual_uph_mean": 2.5031740007128027,
+     "actual_over_paper_mean": 0.6953261113091118,
+     "actual_over_paper_min": 0.6950073740750923,
+     "actual_over_paper_max": 0.6956648953587377,
+     "mean_utilization": 0.6323728774957732,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.4,
+     "buffer": 1,
+     "actual_uph_mean": 3.0781078093672374,
+     "actual_over_paper_mean": 0.8550299470464547,
+     "actual_over_paper_min": 0.8536934992257944,
+     "actual_over_paper_max": 0.8566962970170977,
+     "mean_utilization": 0.7776741477837383,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.4,
+     "buffer": 2,
+     "actual_uph_mean": 3.2789160725447064,
+     "actual_over_paper_mean": 0.9108100201513073,
+     "actual_over_paper_min": 0.9087847945240883,
+     "actual_over_paper_max": 0.912601905261282,
+     "mean_utilization": 0.8283186465345111,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.4,
+     "buffer": 4,
+     "actual_uph_mean": 3.4373405096168104,
+     "actual_over_paper_mean": 0.9548168082268917,
+     "actual_over_paper_min": 0.9524342453803492,
+     "actual_over_paper_max": 0.9566432510623388,
+     "mean_utilization": 0.8684648345388247,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.4,
+     "buffer": 8,
+     "actual_uph_mean": 3.5332657969554497,
+     "actual_over_paper_mean": 0.9814627213765137,
+     "actual_over_paper_min": 0.9807819647307585,
+     "actual_over_paper_max": 0.9827018882314802,
+     "mean_utilization": 0.89337458003454,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.5,
+     "buffer": 0,
+     "actual_uph_mean": 2.309047351062048,
+     "actual_over_paper_mean": 0.64140204196168,
+     "actual_over_paper_min": 0.6409400765100924,
+     "actual_over_paper_max": 0.6420166833805376,
+     "mean_utilization": 0.5834335176751508,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.5,
+     "buffer": 1,
+     "actual_uph_mean": 2.8804687232994257,
+     "actual_over_paper_mean": 0.8001302009165071,
+     "actual_over_paper_min": 0.7984051416146177,
+     "actual_over_paper_max": 0.8026787018978219,
+     "mean_utilization": 0.7278872562071835,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.5,
+     "buffer": 2,
+     "actual_uph_mean": 3.11933166617375,
+     "actual_over_paper_mean": 0.8664810183815973,
+     "actual_over_paper_min": 0.8644992102829221,
+     "actual_over_paper_max": 0.8690591676269058,
+     "mean_utilization": 0.7881310041788873,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.5,
+     "buffer": 4,
+     "actual_uph_mean": 3.3274016609459385,
+     "actual_over_paper_mean": 0.9242782391516496,
+     "actual_over_paper_min": 0.9218400999305292,
+     "actual_over_paper_max": 0.9275463282038326,
+     "mean_utilization": 0.8407272643798226,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.5,
+     "buffer": 8,
+     "actual_uph_mean": 3.468398416845146,
+     "actual_over_paper_mean": 0.9634440046792072,
+     "actual_over_paper_min": 0.9611675080063822,
+     "actual_over_paper_max": 0.9647220430504738,
+     "mean_utilization": 0.8769250244929075,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.75,
+     "buffer": 0,
+     "actual_uph_mean": 1.9402162924421589,
+     "actual_over_paper_mean": 0.538948970122822,
+     "actual_over_paper_min": 0.5380894981391713,
+     "actual_over_paper_max": 0.5402819287715527,
+     "mean_utilization": 0.49057268979173313,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.75,
+     "buffer": 1,
+     "actual_uph_mean": 2.4538076671424336,
+     "actual_over_paper_mean": 0.6816132408728981,
+     "actual_over_paper_min": 0.6792213983365959,
+     "actual_over_paper_max": 0.6847610657348668,
+     "mean_utilization": 0.6204679190736838,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.75,
+     "buffer": 2,
+     "actual_uph_mean": 2.734823549235245,
+     "actual_over_paper_mean": 0.7596732081209013,
+     "actual_over_paper_min": 0.7569006149735468,
+     "actual_over_paper_max": 0.7636971796459102,
+     "mean_utilization": 0.691524536851163,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.75,
+     "buffer": 4,
+     "actual_uph_mean": 3.023858702778567,
+     "actual_over_paper_mean": 0.8399607507718242,
+     "actual_over_paper_min": 0.8352181925203912,
+     "actual_over_paper_max": 0.8457300155818562,
+     "mean_utilization": 0.7644138826654084,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 0.75,
+     "buffer": 8,
+     "actual_uph_mean": 3.259806058704003,
+     "actual_over_paper_mean": 0.9055016829733343,
+     "actual_over_paper_min": 0.8992177008905053,
+     "actual_over_paper_max": 0.9115152586186169,
+     "mean_utilization": 0.8245962801634232,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 1.0,
+     "buffer": 0,
+     "actual_uph_mean": 1.6879436806575494,
+     "actual_over_paper_mean": 0.46887324462709695,
+     "actual_over_paper_min": 0.4673814304031396,
+     "actual_over_paper_max": 0.47096502233621346,
+     "mean_utilization": 0.42719817990608694,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 1.0,
+     "buffer": 1,
+     "actual_uph_mean": 2.135450840736466,
+     "actual_over_paper_mean": 0.5931807890934627,
+     "actual_over_paper_min": 0.589954683419475,
+     "actual_over_paper_max": 0.5969447055389366,
+     "mean_utilization": 0.5404743611319595,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 1.0,
+     "buffer": 2,
+     "actual_uph_mean": 2.412839560717347,
+     "actual_over_paper_mean": 0.6702332113103742,
+     "actual_over_paper_min": 0.6656066462740678,
+     "actual_over_paper_max": 0.6756300374637657,
+     "mean_utilization": 0.6107328752575654,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 1.0,
+     "buffer": 4,
+     "actual_uph_mean": 2.729435280582535,
+     "actual_over_paper_mean": 0.7581764668284818,
+     "actual_over_paper_min": 0.752282828571103,
+     "actual_over_paper_max": 0.7663928930379208,
+     "mean_utilization": 0.6906767965887303,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    },
+    {
+     "cv": 1.0,
+     "buffer": 8,
+     "actual_uph_mean": 3.030762642331066,
+     "actual_over_paper_mean": 0.8418785117586293,
+     "actual_over_paper_min": 0.8336354077322115,
+     "actual_over_paper_max": 0.8500922693577044,
+     "mean_utilization": 0.767209265204413,
+     "seeds": [
+      1,
+      2,
+      3
+     ]
+    }
+   ],
+   "reference_point": {
+    "cv": 0.3,
+    "buffer": 1,
+    "seed": 1,
+    "warmup": 500,
+    "units": 5000,
+    "stations": 8,
+    "cycle_time": 1000,
+    "loads": [
+     987,
+     958,
+     991,
+     963,
+     991,
+     971,
+     987,
+     428
+    ],
+    "paper_uph": 3.6,
+    "bottleneck_uph": 3.632694248234107,
+    "actual_uph": 3.278792214543593,
+    "actual_over_paper": 0.910775615150998,
+    "uph_loss_pct": 8.922438484900198,
+    "paper_upph": 0.45,
+    "actual_upph": 0.4098490268179491,
+    "utilization": [
+     0.8968520424021298,
+     0.8756531634730245,
+     0.8982483271344459,
+     0.8750753920057318,
+     0.9018044944865498,
+     0.8834984782297606,
+     0.8955553825518823,
+     0.39054272151356423
+    ],
+    "starved": [
+     0.0,
+     0.027284033876431586,
+     0.033129387124728175,
+     0.05682711742063259,
+     0.057255889443905486,
+     0.08783064151902523,
+     0.1044446174481177,
+     0.6094572784864358
+    ],
+    "blocked": [
+     0.10314795759787013,
+     0.09706280265054386,
+     0.06862228574082593,
+     0.06809749057363554,
+     0.04093961606954459,
+     0.02867088025121417,
+     0.0,
+     0.0
+    ],
+    "mean_utilization": 0.8271537502246361,
+    "oee": {
+     "availability": 1.0,
+     "performance": 0.910775615150998,
+     "quality": 1.0,
+     "oee": 0.910775615150998,
+     "assumptions": "availability 1.0 (no breakdowns or changeovers modelled), quality 1.0 (no defects or rework modelled), performance = simulated uph / paper uph (3600 / cycle time)"
+    }
+   },
+   "reference_point_cv0": {
+    "cv": 0.0,
+    "buffer": 0,
+    "seed": 1,
+    "warmup": 500,
+    "units": 5000,
+    "stations": 8,
+    "cycle_time": 1000,
+    "loads": [
+     987,
+     958,
+     991,
+     963,
+     991,
+     971,
+     987,
+     428
+    ],
+    "paper_uph": 3.6,
+    "bottleneck_uph": 3.632694248234107,
+    "actual_uph": 3.632694248234107,
+    "actual_over_paper": 1.0090817356205852,
+    "uph_loss_pct": -0.908173562058523,
+    "paper_upph": 0.45,
+    "actual_upph": 0.45408678102926336,
+    "utilization": [
+     0.9959636730575177,
+     0.9667003027245207,
+     1.0,
+     0.9717457114026236,
+     1.0,
+     0.9798183652875883,
+     0.9959636730575177,
+     0.4318869828456105
+    ],
+    "starved": [
+     0.0,
+     0.0,
+     0.0,
+     0.028254288597376387,
+     0.0,
+     0.020181634712411706,
+     0.004036326942482341,
+     0.5681130171543896
+    ],
+    "blocked": [
+     0.004036326942482341,
+     0.033299697275479316,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "mean_utilization": 0.9177598385469223,
+    "oee": {
+     "availability": 1.0,
+     "performance": 1.0090817356205852,
+     "quality": 1.0,
+     "oee": 1.0090817356205852,
+     "assumptions": "availability 1.0 (no breakdowns or changeovers modelled), quality 1.0 (no defects or rework modelled), performance = simulated uph / paper uph (3600 / cycle time)"
+    }
+   }
+  }
+ ],
+ "elapsed_s": 173.89218610001262
+}

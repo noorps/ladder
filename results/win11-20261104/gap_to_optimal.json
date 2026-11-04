@@ -1,0 +1,117 @@
+{
+ "problem": "salbp-1",
+ "sets": [
+  "scholl-salbp1",
+  "otto-n20",
+  "otto-n50",
+  "otto-n100"
+ ],
+ "time_limit_s": 20.0,
+ "buckets": [
+  {
+   "bucket": "n <= 25",
+   "instances": 73,
+   "solvers": {
+    "rpw": {
+     "gap_mean_pct": 5.542969207352769,
+     "matched_best_known": 53
+    },
+    "comsoal": {
+     "gap_mean_pct": 0.7191780821917808,
+     "matched_best_known": 69
+    },
+    "cpsat": {
+     "gap_mean_pct": 0.0,
+     "matched_best_known": 73
+    }
+   },
+   "cpsat_proven": 73,
+   "cpsat_time_median_proven_s": 0.029446400003507733,
+   "cpsat_time_median_all_s": 0.029446400003507733
+  },
+  {
+   "bucket": "26-50",
+   "instances": 85,
+   "solvers": {
+    "rpw": {
+     "gap_mean_pct": 4.691696882112704,
+     "matched_best_known": 49
+    },
+    "comsoal": {
+     "gap_mean_pct": 2.3442409798900674,
+     "matched_best_known": 63
+    },
+    "cpsat": {
+     "gap_mean_pct": -0.058217644424540964,
+     "matched_best_known": 80
+    }
+   },
+   "cpsat_proven": 79,
+   "cpsat_time_median_proven_s": 0.09014989994466305,
+   "cpsat_time_median_all_s": 0.09940459998324513
+  },
+  {
+   "bucket": "51-100",
+   "instances": 153,
+   "solvers": {
+    "rpw": {
+     "gap_mean_pct": 2.832478357751353,
+     "matched_best_known": 81
+    },
+    "comsoal": {
+     "gap_mean_pct": 2.9312848140801298,
+     "matched_best_known": 79
+    },
+    "cpsat": {
+     "gap_mean_pct": 0.07851083584527226,
+     "matched_best_known": 140
+    }
+   },
+   "cpsat_proven": 123,
+   "cpsat_time_median_proven_s": 0.5076824000570923,
+   "cpsat_time_median_all_s": 0.712579199927859
+  },
+  {
+   "bucket": "101-150",
+   "instances": 52,
+   "solvers": {
+    "rpw": {
+     "gap_mean_pct": 3.9878792122017943,
+     "matched_best_known": 15
+    },
+    "comsoal": {
+     "gap_mean_pct": 5.14300752388843,
+     "matched_best_known": 7
+    },
+    "cpsat": {
+     "gap_mean_pct": 1.4354706678902243,
+     "matched_best_known": 26
+    }
+   },
+   "cpsat_proven": 25,
+   "cpsat_time_median_proven_s": 0.29301709996070713,
+   "cpsat_time_median_all_s": 20.102081149991136
+  },
+  {
+   "bucket": "> 150",
+   "instances": 26,
+   "solvers": {
+    "rpw": {
+     "gap_mean_pct": 2.8509486315540062,
+     "matched_best_known": 3
+    },
+    "comsoal": {
+     "gap_mean_pct": 4.29159464714375,
+     "matched_best_known": 0
+    },
+    "cpsat": {
+     "gap_mean_pct": 2.4345027585863943,
+     "matched_best_known": 4
+    }
+   },
+   "cpsat_proven": 2,
+   "cpsat_time_median_proven_s": 14.77156449999893,
+   "cpsat_time_median_all_s": 20.868441750004422
+  }
+ ]
+}

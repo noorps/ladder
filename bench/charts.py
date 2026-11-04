@@ -161,7 +161,8 @@ def gap_to_optimal(out_dir):
     ax1.grid(axis="x", visible=False)
     for name in ["rpw", "comsoal", "cpsat"]:
         ax1.bar(0, 0, color=SOLVER_COLORS[name], label=SOLVER_NAMES[name])
-    ax1.legend(loc="upper left", fontsize=9)
+    ax1.set_ylim(top=ax1.get_ylim()[1] * 1.18)
+    ax1.legend(loc="upper right", fontsize=9, ncol=3)
     ax2.set_xticks(range(len(labels)))
     ax2.set_xticklabels(labels)
     ax2.set_yscale("log")
@@ -188,15 +189,16 @@ def comsoal_n(out_dir):
         ns = [int(n) for n in agg]
         ys = [agg[str(n)]["gap_mean_pct"] if str(n) in agg else agg[n]["gap_mean_pct"] for n in ns]
         color = RAMP[1 + i * 2] if 1 + i * 2 < len(RAMP) else RAMP[-1]
-        ax.plot(ns, ys, color=color, linewidth=2, marker="o", markersize=4, markerfacecolor=BG, markeredgewidth=1.5)
-        ax.text(ns[-1] * 1.15, ys[-1], set_name.replace("otto-", "otto "), va="center", fontsize=9, color=MUTED)
+        ax.plot(ns, ys, color=color, linewidth=2, marker="o", markersize=4, markerfacecolor=BG, markeredgewidth=1.5,
+                label=set_name.replace("otto-n", "otto, n = "))
         data["series"].append({"set": set_name, "n": ns, "gap_mean_pct": ys,
                                "instances": agg[str(ns[0])]["instances"] if str(ns[0]) in agg else agg[ns[0]]["instances"]})
     ax.set_xscale("log")
-    ax.set_xlim(0.8, max(doc["ns"]) * 2.5)
+    ax.set_xlim(0.8, max(doc["ns"]) * 1.5)
     ax.set_xlabel("comsoal trials (log)")
     ax.set_ylabel("mean gap to published optimum (%)")
     ax.set_title("comsoal: quality against the number of random trials", fontsize=11, pad=8)
+    ax.legend(loc="upper right", fontsize=9)
     fig.tight_layout()
     fig.savefig(out_dir / "comsoal_n.png", dpi=160)
     (out_dir / "comsoal_n.json").write_text(json.dumps(data, indent=1))
