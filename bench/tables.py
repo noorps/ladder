@@ -52,12 +52,20 @@ def benchmark_tables(out_dir):
               f"{fmt_t(max(x['time_median'] for x in pr)) if pr else '-'} | "
               f"{(f'{statistics.fmean(x['gap_pct'] for x in npr):.2f}%') if npr else '-'} |")
     print()
-    # surprises: heuristics beating best known / cp-sat improving a bound
+    # instances where a solver landed below the published best known value (all open instances)
     below = [(sn, r["name"], name, r["solvers"][name]["value"], r["published"]) for sn, s in doc["sets"].items()
              for r in s["instances"] for name in r["solvers"] if r["solvers"][name]["below_best_known"]]
     if below:
-        print("below the published best known value:", below)
-    print(f"elapsed {doc.get('elapsed_s', 0) / 60:.0f} min")
+        print("**solutions below the published best known value** (all on instances whose optimum is still open; every one passed the validator)")
+        print()
+        print("| set | instance | solver | value found | published [lb, ub] | proven optimal here |")
+        print("|---|---|---|---|---|---|")
+        for sn, name, solver, v, pub in below:
+            rec = next(r for r in doc["sets"][sn]["instances"] if r["name"] == name)
+            proven = rec["solvers"]["cpsat"]["proven"] if solver == "cpsat" else "-"
+            print(f"| {sn} | {name} | {SOLVER_NAMES[solver]} | {v} | [{pub['lb']}, {pub['ub']}] | {proven} |")
+        print()
+    print(f"whole benchmark run: {doc.get('elapsed_s', 0) / 60:.0f} min wall clock.")
 
 
 def comsoal_table(out_dir):
