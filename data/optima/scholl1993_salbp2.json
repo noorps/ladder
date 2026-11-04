@@ -1,0 +1,1842 @@
+[
+{
+"graph": "Buxey",
+"m": 7,
+"optimum": 47,
+"set": 1
+},
+{
+"graph": "Buxey",
+"m": 8,
+"optimum": 41,
+"set": 1
+},
+{
+"graph": "Buxey",
+"m": 9,
+"optimum": 37,
+"set": 1
+},
+{
+"graph": "Buxey",
+"m": 10,
+"optimum": 34,
+"set": 1
+},
+{
+"graph": "Buxey",
+"m": 11,
+"optimum": 32,
+"set": 1
+},
+{
+"graph": "Buxey",
+"m": 12,
+"optimum": 28,
+"set": 1
+},
+{
+"graph": "Buxey",
+"m": 13,
+"optimum": 27,
+"set": 1
+},
+{
+"graph": "Buxey",
+"m": 14,
+"optimum": 25,
+"set": 1
+},
+{
+"graph": "Gunther",
+"m": 6,
+"optimum": 84,
+"set": 1
+},
+{
+"graph": "Gunther",
+"m": 7,
+"optimum": 72,
+"set": 1
+},
+{
+"graph": "Gunther",
+"m": 8,
+"optimum": 63,
+"set": 1
+},
+{
+"graph": "Gunther",
+"m": 9,
+"optimum": 54,
+"set": 1
+},
+{
+"graph": "Gunther",
+"m": 10,
+"optimum": 50,
+"set": 1
+},
+{
+"graph": "Gunther",
+"m": 11,
+"optimum": 48,
+"set": 1
+},
+{
+"graph": "Gunther",
+"m": 12,
+"optimum": 44,
+"set": 1
+},
+{
+"graph": "Gunther",
+"m": 13,
+"optimum": 42,
+"set": 1
+},
+{
+"graph": "Gunther",
+"m": 14,
+"optimum": 40,
+"set": 1
+},
+{
+"graph": "Gunther",
+"m": 15,
+"optimum": 40,
+"set": 1
+},
+{
+"graph": "Kilbridge",
+"m": 3,
+"optimum": 184,
+"set": 1
+},
+{
+"graph": "Kilbridge",
+"m": 4,
+"optimum": 138,
+"set": 1
+},
+{
+"graph": "Kilbridge",
+"m": 5,
+"optimum": 111,
+"set": 1
+},
+{
+"graph": "Kilbridge",
+"m": 6,
+"optimum": 92,
+"set": 1
+},
+{
+"graph": "Kilbridge",
+"m": 7,
+"optimum": 79,
+"set": 1
+},
+{
+"graph": "Kilbridge",
+"m": 8,
+"optimum": 69,
+"set": 1
+},
+{
+"graph": "Kilbridge",
+"m": 9,
+"optimum": 62,
+"set": 1
+},
+{
+"graph": "Kilbridge",
+"m": 10,
+"optimum": 56,
+"set": 1
+},
+{
+"graph": "Kilbridge",
+"m": 11,
+"optimum": 55,
+"set": 1
+},
+{
+"graph": "Lutz1",
+"m": 8,
+"optimum": 1860,
+"set": 1
+},
+{
+"graph": "Lutz1",
+"m": 9,
+"optimum": 1638,
+"set": 1
+},
+{
+"graph": "Lutz1",
+"m": 10,
+"optimum": 1526,
+"set": 1
+},
+{
+"graph": "Lutz1",
+"m": 11,
+"optimum": 1400,
+"set": 1
+},
+{
+"graph": "Lutz1",
+"m": 12,
+"optimum": 1400,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 9,
+"optimum": 54,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 10,
+"optimum": 49,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 11,
+"optimum": 45,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 12,
+"optimum": 41,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 13,
+"optimum": 38,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 14,
+"optimum": 35,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 15,
+"optimum": 33,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 16,
+"optimum": 31,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 17,
+"optimum": 29,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 18,
+"optimum": 28,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 19,
+"optimum": 26,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 20,
+"optimum": 25,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 21,
+"optimum": 24,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 22,
+"optimum": 23,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 23,
+"optimum": 22,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 24,
+"optimum": 21,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 25,
+"optimum": 20,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 26,
+"optimum": 19,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 27,
+"optimum": 19,
+"set": 1
+},
+{
+"graph": "Lutz2",
+"m": 28,
+"optimum": 18,
+"set": 1
+},
+{
+"graph": "Sawyer",
+"m": 7,
+"optimum": 47,
+"set": 1
+},
+{
+"graph": "Sawyer",
+"m": 8,
+"optimum": 41,
+"set": 1
+},
+{
+"graph": "Sawyer",
+"m": 9,
+"optimum": 37,
+"set": 1
+},
+{
+"graph": "Sawyer",
+"m": 10,
+"optimum": 34,
+"set": 1
+},
+{
+"graph": "Sawyer",
+"m": 11,
+"optimum": 31,
+"set": 1
+},
+{
+"graph": "Sawyer",
+"m": 12,
+"optimum": 28,
+"set": 1
+},
+{
+"graph": "Sawyer",
+"m": 13,
+"optimum": 26,
+"set": 1
+},
+{
+"graph": "Sawyer",
+"m": 14,
+"optimum": 25,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 3,
+"optimum": 1170,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 4,
+"optimum": 878,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 5,
+"optimum": 702,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 6,
+"optimum": 585,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 7,
+"optimum": 502,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 8,
+"optimum": 439,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 9,
+"optimum": 391,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 10,
+"optimum": 352,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 11,
+"optimum": 320,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 12,
+"optimum": 294,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 13,
+"optimum": 271,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 14,
+"optimum": 251,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 15,
+"optimum": 235,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 16,
+"optimum": 221,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 17,
+"optimum": 208,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 18,
+"optimum": 196,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 19,
+"optimum": 186,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 20,
+"optimum": 177,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 21,
+"optimum": 170,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 22,
+"optimum": 162,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 23,
+"optimum": 156,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 24,
+"optimum": 156,
+"set": 1
+},
+{
+"graph": "Tonge",
+"m": 25,
+"optimum": 156,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 3,
+"optimum": 25236,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 4,
+"optimum": 18927,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 5,
+"optimum": 15142,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 6,
+"optimum": 12620,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 7,
+"optimum": 10826,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 8,
+"optimum": 9554,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 9,
+"optimum": 8499,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 10,
+"optimum": 7580,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 11,
+"optimum": 7084,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 12,
+"optimum": 6412,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 13,
+"optimum": 5864,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 14,
+"optimum": 5441,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 15,
+"optimum": 5104,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 16,
+"optimum": 4850,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 17,
+"optimum": 4516,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 18,
+"optimum": 4317,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 19,
+"optimum": 4068,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 20,
+"optimum": 3882,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 21,
+"optimum": 3691,
+"set": 1
+},
+{
+"graph": "Arcus1",
+"m": 22,
+"optimum": 3691,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 3,
+"optimum": 50133,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 4,
+"optimum": 37600,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 5,
+"optimum": 30080,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 6,
+"optimum": 25067,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 7,
+"optimum": 21486,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 8,
+"optimum": 18800,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 9,
+"optimum": 16711,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 10,
+"optimum": 15040,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 11,
+"optimum": 13673,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 12,
+"optimum": 12534,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 13,
+"optimum": 11570,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 14,
+"optimum": 10747,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 15,
+"optimum": 10035,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 16,
+"optimum": 9412,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 17,
+"optimum": 8855,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 18,
+"optimum": null,
+"lb": 8376,
+"ub": 8377,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 19,
+"optimum": null,
+"lb": 7920,
+"ub": 7922,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 20,
+"optimum": null,
+"lb": 7520,
+"ub": 7524,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 21,
+"optimum": null,
+"lb": 7181,
+"ub": 7187,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 22,
+"optimum": null,
+"lb": 6839,
+"ub": 6856,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 23,
+"optimum": null,
+"lb": 6551,
+"ub": 6560,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 24,
+"optimum": null,
+"lb": 6273,
+"ub": 6282,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 25,
+"optimum": null,
+"lb": 6085,
+"ub": 6101,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 26,
+"optimum": null,
+"lb": 5844,
+"ub": 5855,
+"set": 1
+},
+{
+"graph": "Arcus2",
+"m": 27,
+"optimum": 5689,
+"set": 1
+},
+{
+"graph": "Hahn",
+"m": 3,
+"optimum": 4787,
+"set": 2
+},
+{
+"graph": "Hahn",
+"m": 4,
+"optimum": 3677,
+"set": 2
+},
+{
+"graph": "Hahn",
+"m": 5,
+"optimum": 2823,
+"set": 2
+},
+{
+"graph": "Hahn",
+"m": 6,
+"optimum": 2400,
+"set": 2
+},
+{
+"graph": "Hahn",
+"m": 7,
+"optimum": 2336,
+"set": 2
+},
+{
+"graph": "Hahn",
+"m": 8,
+"optimum": 1907,
+"set": 2
+},
+{
+"graph": "Hahn",
+"m": 9,
+"optimum": 1827,
+"set": 2
+},
+{
+"graph": "Hahn",
+"m": 10,
+"optimum": 1775,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 3,
+"optimum": 516,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 4,
+"optimum": 387,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 5,
+"optimum": 310,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 6,
+"optimum": 258,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 7,
+"optimum": 222,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 8,
+"optimum": 194,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 9,
+"optimum": 172,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 10,
+"optimum": 155,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 11,
+"optimum": 142,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 12,
+"optimum": 130,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 13,
+"optimum": 120,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 14,
+"optimum": 111,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 15,
+"optimum": 104,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 16,
+"optimum": 98,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 17,
+"optimum": 92,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 18,
+"optimum": 87,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 19,
+"optimum": 84,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 20,
+"optimum": 79,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 21,
+"optimum": 76,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 22,
+"optimum": 73,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 23,
+"optimum": 69,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 24,
+"optimum": 66,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 25,
+"optimum": 64,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 26,
+"optimum": 64,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 27,
+"optimum": 60,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 28,
+"optimum": 59,
+"set": 2
+},
+{
+"graph": "Warnecke",
+"m": 29,
+"optimum": 56,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 3,
+"optimum": 500,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 4,
+"optimum": 375,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 5,
+"optimum": 300,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 6,
+"optimum": 250,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 7,
+"optimum": 215,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 8,
+"optimum": 188,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 9,
+"optimum": 167,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 10,
+"optimum": 150,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 11,
+"optimum": 137,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 12,
+"optimum": 125,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 13,
+"optimum": 116,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 14,
+"optimum": 108,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 15,
+"optimum": 100,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 16,
+"optimum": 94,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 17,
+"optimum": 89,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 18,
+"optimum": null,
+"lb": 84,
+"ub": 87,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 19,
+"optimum": null,
+"lb": 84,
+"ub": 85,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 20,
+"optimum": 77,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 21,
+"optimum": 72,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 22,
+"optimum": 69,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 23,
+"optimum": null,
+"lb": 66,
+"ub": 67,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 24,
+"optimum": 66,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 25,
+"optimum": 65,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 26,
+"optimum": 65,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 27,
+"optimum": null,
+"lb": 63,
+"ub": 65,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 28,
+"optimum": null,
+"lb": 63,
+"ub": 64,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 29,
+"optimum": 63,
+"set": 2
+},
+{
+"graph": "Wee-Mag",
+"m": 30,
+"optimum": 56,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 3,
+"optimum": 548,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 4,
+"optimum": 411,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 5,
+"optimum": 329,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 6,
+"optimum": 275,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 7,
+"optimum": 236,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 8,
+"optimum": 207,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 9,
+"optimum": 184,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 10,
+"optimum": 165,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 11,
+"optimum": 151,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 12,
+"optimum": 138,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 13,
+"optimum": 128,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 14,
+"optimum": 118,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 15,
+"optimum": 110,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 16,
+"optimum": 105,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 17,
+"optimum": 98,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 18,
+"optimum": 93,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 19,
+"optimum": 89,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 20,
+"optimum": 85,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 21,
+"optimum": 80,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 22,
+"optimum": 76,
+"set": 2
+},
+{
+"graph": "Lutz3",
+"m": 23,
+"optimum": 74,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 3,
+"optimum": 1403,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 4,
+"optimum": 1052,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 5,
+"optimum": 844,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 6,
+"optimum": 704,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 7,
+"optimum": 621,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 8,
+"optimum": 532,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 9,
+"optimum": 471,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 10,
+"optimum": 424,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 11,
+"optimum": 391,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 12,
+"optimum": 358,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 13,
+"optimum": 325,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 14,
+"optimum": 311,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 15,
+"optimum": 288,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 16,
+"optimum": 268,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 17,
+"optimum": 251,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 18,
+"optimum": 239,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 19,
+"optimum": 226,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 20,
+"optimum": 220,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 21,
+"optimum": 208,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 22,
+"optimum": 200,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 23,
+"optimum": 189,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 24,
+"optimum": 179,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 25,
+"optimum": 172,
+"set": 2
+},
+{
+"graph": "Mukherje",
+"m": 26,
+"optimum": 171,
+"set": 2
+},
+{
+"graph": "Barthold",
+"m": 3,
+"optimum": 1878,
+"set": 2
+},
+{
+"graph": "Barthold",
+"m": 4,
+"optimum": 1409,
+"set": 2
+},
+{
+"graph": "Barthold",
+"m": 5,
+"optimum": 1127,
+"set": 2
+},
+{
+"graph": "Barthold",
+"m": 6,
+"optimum": 939,
+"set": 2
+},
+{
+"graph": "Barthold",
+"m": 7,
+"optimum": 805,
+"set": 2
+},
+{
+"graph": "Barthold",
+"m": 8,
+"optimum": 705,
+"set": 2
+},
+{
+"graph": "Barthold",
+"m": 9,
+"optimum": 626,
+"set": 2
+},
+{
+"graph": "Barthold",
+"m": 10,
+"optimum": 564,
+"set": 2
+},
+{
+"graph": "Barthold",
+"m": 11,
+"optimum": 513,
+"set": 2
+},
+{
+"graph": "Barthold",
+"m": 12,
+"optimum": 470,
+"set": 2
+},
+{
+"graph": "Barthold",
+"m": 13,
+"optimum": 434,
+"set": 2
+},
+{
+"graph": "Barthold",
+"m": 14,
+"optimum": 403,
+"set": 2
+},
+{
+"graph": "Barthold",
+"m": 15,
+"optimum": 383,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 27,
+"optimum": 157,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 28,
+"optimum": 152,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 29,
+"optimum": 146,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 30,
+"optimum": 142,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 31,
+"optimum": 137,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 32,
+"optimum": 133,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 33,
+"optimum": 129,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 34,
+"optimum": 125,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 35,
+"optimum": 121,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 36,
+"optimum": 118,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 37,
+"optimum": 115,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 38,
+"optimum": 112,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 39,
+"optimum": 109,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 40,
+"optimum": 106,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 41,
+"optimum": 104,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 42,
+"optimum": 101,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 43,
+"optimum": 99,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 44,
+"optimum": 97,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 45,
+"optimum": 95,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 46,
+"optimum": 93,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 47,
+"optimum": 91,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 48,
+"optimum": 89,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 49,
+"optimum": 87,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 50,
+"optimum": 85,
+"set": 2
+},
+{
+"graph": "Barthol2",
+"m": 51,
+"optimum": 84,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 25,
+"optimum": 2787,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 26,
+"optimum": 2680,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 27,
+"optimum": 2580,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 28,
+"optimum": 2488,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 29,
+"optimum": 2402,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 30,
+"optimum": 2322,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 31,
+"optimum": 2247,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 32,
+"optimum": 2177,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 33,
+"optimum": 2111,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 34,
+"optimum": 2049,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 35,
+"optimum": 1991,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 36,
+"optimum": 1935,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 37,
+"optimum": 1883,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 38,
+"optimum": 1834,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 39,
+"optimum": 1787,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 40,
+"optimum": 1742,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 41,
+"optimum": 1700,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 42,
+"optimum": 1659,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 43,
+"optimum": 1621,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 44,
+"optimum": 1584,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 45,
+"optimum": 1549,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 46,
+"optimum": 1515,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 47,
+"optimum": 1483,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 48,
+"optimum": 1452,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 49,
+"optimum": 1423,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 50,
+"optimum": 1394,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 51,
+"optimum": 1386,
+"set": 2
+},
+{
+"graph": "Scholl",
+"m": 52,
+"optimum": 1386,
+"set": 2
+}
+]

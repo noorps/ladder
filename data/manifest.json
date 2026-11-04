@@ -1,0 +1,32 @@
+{
+  "sources": {
+    "SALBP_benchmark.zip": {
+      "url": "https://assembly-line-balancing.de/wp-content/uploads/2017/01/SALBP_benchmark.zip",
+      "bytes": 10324427,
+      "sha256": "379a419ff000aab62b12662f6224978f5fc875967ac5944b6a7d09d4555417cd"
+    },
+    "SALBP-data-sets.zip": {
+      "url": "https://assembly-line-balancing.de/wp-content/uploads/2017/01/SALBP-data-sets.zip",
+      "bytes": 79372,
+      "sha256": "cf7a5f89e034dee8fe67b305c37399920926dd174f409b96c189653ed35bb78c"
+    }
+  },
+  "counts": {
+    "otto2013": {
+      "n100": 525,
+      "n50": 525,
+      "n20": 525
+    },
+    "scholl1993": {
+      "IN2": 25
+    },
+    "optima": {
+      "otto2013": 6300,
+      "otto2013_open": 1020,
+      "scholl1993_salbp1": 269,
+      "scholl1993_salbp1_open": 1,
+      "scholl1993_salbp2": 302,
+      "scholl1993_salbp2_open": 14
+    }
+  }
+}

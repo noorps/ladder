@@ -1,0 +1,1349 @@
+[
+{
+"graph": "Arcus1",
+"c": 3786,
+"optimum": 21
+},
+{
+"graph": "Arcus1",
+"c": 3985,
+"optimum": 20
+},
+{
+"graph": "Arcus1",
+"c": 4206,
+"optimum": 19
+},
+{
+"graph": "Arcus1",
+"c": 4454,
+"optimum": 18
+},
+{
+"graph": "Arcus1",
+"c": 4732,
+"optimum": 17
+},
+{
+"graph": "Arcus1",
+"c": 5048,
+"optimum": 16
+},
+{
+"graph": "Arcus1",
+"c": 5408,
+"optimum": 15
+},
+{
+"graph": "Arcus1",
+"c": 5824,
+"optimum": 14
+},
+{
+"graph": "Arcus1",
+"c": 5853,
+"optimum": 14
+},
+{
+"graph": "Arcus1",
+"c": 6309,
+"optimum": 13
+},
+{
+"graph": "Arcus1",
+"c": 6842,
+"optimum": 12
+},
+{
+"graph": "Arcus1",
+"c": 6883,
+"optimum": 12
+},
+{
+"graph": "Arcus1",
+"c": 7571,
+"optimum": 11
+},
+{
+"graph": "Arcus1",
+"c": 8412,
+"optimum": 10
+},
+{
+"graph": "Arcus1",
+"c": 8898,
+"optimum": 9
+},
+{
+"graph": "Arcus1",
+"c": 10816,
+"optimum": 8
+},
+{
+"graph": "Arcus2",
+"c": 5755,
+"optimum": 27
+},
+{
+"graph": "Arcus2",
+"c": 5785,
+"optimum": 27
+},
+{
+"graph": "Arcus2",
+"c": 6016,
+"optimum": 26
+},
+{
+"graph": "Arcus2",
+"c": 6267,
+"optimum": 25
+},
+{
+"graph": "Arcus2",
+"c": 6540,
+"optimum": 24
+},
+{
+"graph": "Arcus2",
+"c": 6837,
+"optimum": 23
+},
+{
+"graph": "Arcus2",
+"c": 7162,
+"optimum": 22
+},
+{
+"graph": "Arcus2",
+"c": 7520,
+"optimum": 21
+},
+{
+"graph": "Arcus2",
+"c": 7916,
+"optimum": 20
+},
+{
+"graph": "Arcus2",
+"c": 8356,
+"optimum": 19
+},
+{
+"graph": "Arcus2",
+"c": 8847,
+"optimum": 18
+},
+{
+"graph": "Arcus2",
+"c": 9400,
+"optimum": 17
+},
+{
+"graph": "Arcus2",
+"c": 10027,
+"optimum": 16
+},
+{
+"graph": "Arcus2",
+"c": 10743,
+"optimum": 15
+},
+{
+"graph": "Arcus2",
+"c": 11378,
+"optimum": 14
+},
+{
+"graph": "Arcus2",
+"c": 11570,
+"optimum": 13
+},
+{
+"graph": "Arcus2",
+"c": 17067,
+"optimum": 9
+},
+{
+"graph": "Barthol2",
+"c": 84,
+"optimum": 51
+},
+{
+"graph": "Barthol2",
+"c": 85,
+"optimum": 50
+},
+{
+"graph": "Barthol2",
+"c": 87,
+"optimum": 49
+},
+{
+"graph": "Barthol2",
+"c": 89,
+"optimum": 48
+},
+{
+"graph": "Barthol2",
+"c": 91,
+"optimum": 47
+},
+{
+"graph": "Barthol2",
+"c": 93,
+"optimum": 46
+},
+{
+"graph": "Barthol2",
+"c": 95,
+"optimum": 45
+},
+{
+"graph": "Barthol2",
+"c": 97,
+"optimum": 44
+},
+{
+"graph": "Barthol2",
+"c": 99,
+"optimum": 43
+},
+{
+"graph": "Barthol2",
+"c": 101,
+"optimum": 42
+},
+{
+"graph": "Barthol2",
+"c": 104,
+"optimum": 41
+},
+{
+"graph": "Barthol2",
+"c": 106,
+"optimum": 40
+},
+{
+"graph": "Barthol2",
+"c": 109,
+"optimum": 39
+},
+{
+"graph": "Barthol2",
+"c": 112,
+"optimum": 38
+},
+{
+"graph": "Barthol2",
+"c": 115,
+"optimum": 37
+},
+{
+"graph": "Barthol2",
+"c": 118,
+"optimum": 36
+},
+{
+"graph": "Barthol2",
+"c": 121,
+"optimum": 35
+},
+{
+"graph": "Barthol2",
+"c": 125,
+"optimum": 34
+},
+{
+"graph": "Barthol2",
+"c": 129,
+"optimum": 33
+},
+{
+"graph": "Barthol2",
+"c": 133,
+"optimum": 32
+},
+{
+"graph": "Barthol2",
+"c": 137,
+"optimum": 31
+},
+{
+"graph": "Barthol2",
+"c": 142,
+"optimum": 30
+},
+{
+"graph": "Barthol2",
+"c": 146,
+"optimum": 29
+},
+{
+"graph": "Barthol2",
+"c": 152,
+"optimum": 28
+},
+{
+"graph": "Barthol2",
+"c": 157,
+"optimum": 27
+},
+{
+"graph": "Barthol2",
+"c": 163,
+"optimum": 26
+},
+{
+"graph": "Barthol2",
+"c": 170,
+"optimum": 25
+},
+{
+"graph": "Barthold",
+"c": 403,
+"optimum": 14
+},
+{
+"graph": "Barthold",
+"c": 434,
+"optimum": 13
+},
+{
+"graph": "Barthold",
+"c": 470,
+"optimum": 12
+},
+{
+"graph": "Barthold",
+"c": 513,
+"optimum": 11
+},
+{
+"graph": "Barthold",
+"c": 564,
+"optimum": 10
+},
+{
+"graph": "Barthold",
+"c": 626,
+"optimum": 9
+},
+{
+"graph": "Barthold",
+"c": 705,
+"optimum": 8
+},
+{
+"graph": "Barthold",
+"c": 805,
+"optimum": 7
+},
+{
+"graph": "Bowman",
+"c": 20,
+"optimum": 5
+},
+{
+"graph": "Buxey",
+"c": 27,
+"optimum": 13
+},
+{
+"graph": "Buxey",
+"c": 30,
+"optimum": 12
+},
+{
+"graph": "Buxey",
+"c": 33,
+"optimum": 11
+},
+{
+"graph": "Buxey",
+"c": 36,
+"optimum": 10
+},
+{
+"graph": "Buxey",
+"c": 41,
+"optimum": 8
+},
+{
+"graph": "Buxey",
+"c": 47,
+"optimum": 7
+},
+{
+"graph": "Buxey",
+"c": 54,
+"optimum": 7
+},
+{
+"graph": "Gunther",
+"c": 41,
+"optimum": 14
+},
+{
+"graph": "Gunther",
+"c": 44,
+"optimum": 12
+},
+{
+"graph": "Gunther",
+"c": 49,
+"optimum": 11
+},
+{
+"graph": "Gunther",
+"c": 54,
+"optimum": 9
+},
+{
+"graph": "Gunther",
+"c": 61,
+"optimum": 9
+},
+{
+"graph": "Gunther",
+"c": 69,
+"optimum": 8
+},
+{
+"graph": "Gunther",
+"c": 81,
+"optimum": 7
+},
+{
+"graph": "Hahn",
+"c": 2004,
+"optimum": 8
+},
+{
+"graph": "Hahn",
+"c": 2338,
+"optimum": 7
+},
+{
+"graph": "Hahn",
+"c": 2806,
+"optimum": 6
+},
+{
+"graph": "Hahn",
+"c": 3507,
+"optimum": 5
+},
+{
+"graph": "Hahn",
+"c": 4676,
+"optimum": 4
+},
+{
+"graph": "Heskiaoff",
+"c": 138,
+"optimum": 8
+},
+{
+"graph": "Heskiaoff",
+"c": 205,
+"optimum": 5
+},
+{
+"graph": "Heskiaoff",
+"c": 216,
+"optimum": 5
+},
+{
+"graph": "Heskiaoff",
+"c": 256,
+"optimum": 4
+},
+{
+"graph": "Heskiaoff",
+"c": 324,
+"optimum": 4
+},
+{
+"graph": "Heskiaoff",
+"c": 342,
+"optimum": 3
+},
+{
+"graph": "Jackson",
+"c": 7,
+"optimum": 8
+},
+{
+"graph": "Jackson",
+"c": 9,
+"optimum": 6
+},
+{
+"graph": "Jackson",
+"c": 10,
+"optimum": 5
+},
+{
+"graph": "Jackson",
+"c": 13,
+"optimum": 4
+},
+{
+"graph": "Jackson",
+"c": 14,
+"optimum": 4
+},
+{
+"graph": "Jackson",
+"c": 21,
+"optimum": 3
+},
+{
+"graph": "Jaeschke",
+"c": 6,
+"optimum": 8
+},
+{
+"graph": "Jaeschke",
+"c": 7,
+"optimum": 7
+},
+{
+"graph": "Jaeschke",
+"c": 8,
+"optimum": 6
+},
+{
+"graph": "Jaeschke",
+"c": 10,
+"optimum": 4
+},
+{
+"graph": "Jaeschke",
+"c": 18,
+"optimum": 3
+},
+{
+"graph": "Kilbridge",
+"c": 56,
+"optimum": 10
+},
+{
+"graph": "Kilbridge",
+"c": 57,
+"optimum": 10
+},
+{
+"graph": "Kilbridge",
+"c": 62,
+"optimum": 9
+},
+{
+"graph": "Kilbridge",
+"c": 69,
+"optimum": 8
+},
+{
+"graph": "Kilbridge",
+"c": 79,
+"optimum": 7
+},
+{
+"graph": "Kilbridge",
+"c": 92,
+"optimum": 6
+},
+{
+"graph": "Kilbridge",
+"c": 110,
+"optimum": 6
+},
+{
+"graph": "Kilbridge",
+"c": 111,
+"optimum": 5
+},
+{
+"graph": "Kilbridge",
+"c": 138,
+"optimum": 4
+},
+{
+"graph": "Kilbridge",
+"c": 184,
+"optimum": 3
+},
+{
+"graph": "Lutz1",
+"c": 1414,
+"optimum": 11
+},
+{
+"graph": "Lutz1",
+"c": 1572,
+"optimum": 10
+},
+{
+"graph": "Lutz1",
+"c": 1768,
+"optimum": 9
+},
+{
+"graph": "Lutz1",
+"c": 2020,
+"optimum": 8
+},
+{
+"graph": "Lutz1",
+"c": 2357,
+"optimum": 7
+},
+{
+"graph": "Lutz1",
+"c": 2828,
+"optimum": 6
+},
+{
+"graph": "Lutz2",
+"c": 11,
+"optimum": 49
+},
+{
+"graph": "Lutz2",
+"c": 12,
+"optimum": 44
+},
+{
+"graph": "Lutz2",
+"c": 13,
+"optimum": 40
+},
+{
+"graph": "Lutz2",
+"c": 14,
+"optimum": 37
+},
+{
+"graph": "Lutz2",
+"c": 15,
+"optimum": 34
+},
+{
+"graph": "Lutz2",
+"c": 16,
+"optimum": 31
+},
+{
+"graph": "Lutz2",
+"c": 17,
+"optimum": 29
+},
+{
+"graph": "Lutz2",
+"c": 18,
+"optimum": 28
+},
+{
+"graph": "Lutz2",
+"c": 19,
+"optimum": 26
+},
+{
+"graph": "Lutz2",
+"c": 20,
+"optimum": 25
+},
+{
+"graph": "Lutz2",
+"c": 21,
+"optimum": 24
+},
+{
+"graph": "Lutz3",
+"c": 75,
+"optimum": 23
+},
+{
+"graph": "Lutz3",
+"c": 79,
+"optimum": 22
+},
+{
+"graph": "Lutz3",
+"c": 83,
+"optimum": 21
+},
+{
+"graph": "Lutz3",
+"c": 87,
+"optimum": 20
+},
+{
+"graph": "Lutz3",
+"c": 92,
+"optimum": 19
+},
+{
+"graph": "Lutz3",
+"c": 97,
+"optimum": 18
+},
+{
+"graph": "Lutz3",
+"c": 103,
+"optimum": 17
+},
+{
+"graph": "Lutz3",
+"c": 110,
+"optimum": 15
+},
+{
+"graph": "Lutz3",
+"c": 118,
+"optimum": 14
+},
+{
+"graph": "Lutz3",
+"c": 127,
+"optimum": 14
+},
+{
+"graph": "Lutz3",
+"c": 137,
+"optimum": 13
+},
+{
+"graph": "Lutz3",
+"c": 150,
+"optimum": 12
+},
+{
+"graph": "Mansoor",
+"c": 48,
+"optimum": 4
+},
+{
+"graph": "Mansoor",
+"c": 62,
+"optimum": 3
+},
+{
+"graph": "Mansoor",
+"c": 94,
+"optimum": 2
+},
+{
+"graph": "Mertens",
+"c": 6,
+"optimum": 6
+},
+{
+"graph": "Mertens",
+"c": 7,
+"optimum": 5
+},
+{
+"graph": "Mertens",
+"c": 8,
+"optimum": 5
+},
+{
+"graph": "Mertens",
+"c": 10,
+"optimum": 3
+},
+{
+"graph": "Mertens",
+"c": 15,
+"optimum": 2
+},
+{
+"graph": "Mertens",
+"c": 18,
+"optimum": 2
+},
+{
+"graph": "Mitchell",
+"c": 14,
+"optimum": 8
+},
+{
+"graph": "Mitchell",
+"c": 15,
+"optimum": 8
+},
+{
+"graph": "Mitchell",
+"c": 21,
+"optimum": 5
+},
+{
+"graph": "Mitchell",
+"c": 26,
+"optimum": 5
+},
+{
+"graph": "Mitchell",
+"c": 35,
+"optimum": 3
+},
+{
+"graph": "Mitchell",
+"c": 39,
+"optimum": 3
+},
+{
+"graph": "Mukherje",
+"c": 176,
+"optimum": 25
+},
+{
+"graph": "Mukherje",
+"c": 183,
+"optimum": 24
+},
+{
+"graph": "Mukherje",
+"c": 192,
+"optimum": 23
+},
+{
+"graph": "Mukherje",
+"c": 201,
+"optimum": 22
+},
+{
+"graph": "Mukherje",
+"c": 211,
+"optimum": 21
+},
+{
+"graph": "Mukherje",
+"c": 222,
+"optimum": 20
+},
+{
+"graph": "Mukherje",
+"c": 234,
+"optimum": 19
+},
+{
+"graph": "Mukherje",
+"c": 248,
+"optimum": 18
+},
+{
+"graph": "Mukherje",
+"c": 263,
+"optimum": 17
+},
+{
+"graph": "Mukherje",
+"c": 281,
+"optimum": 16
+},
+{
+"graph": "Mukherje",
+"c": 301,
+"optimum": 15
+},
+{
+"graph": "Mukherje",
+"c": 324,
+"optimum": 14
+},
+{
+"graph": "Mukherje",
+"c": 351,
+"optimum": 13
+},
+{
+"graph": "Roszieg",
+"c": 14,
+"optimum": 10
+},
+{
+"graph": "Roszieg",
+"c": 16,
+"optimum": 8
+},
+{
+"graph": "Roszieg",
+"c": 18,
+"optimum": 8
+},
+{
+"graph": "Roszieg",
+"c": 21,
+"optimum": 6
+},
+{
+"graph": "Roszieg",
+"c": 25,
+"optimum": 6
+},
+{
+"graph": "Roszieg",
+"c": 32,
+"optimum": 4
+},
+{
+"graph": "Sawyer",
+"c": 25,
+"optimum": 14
+},
+{
+"graph": "Sawyer",
+"c": 27,
+"optimum": 13
+},
+{
+"graph": "Sawyer",
+"c": 30,
+"optimum": 12
+},
+{
+"graph": "Sawyer",
+"c": 33,
+"optimum": 11
+},
+{
+"graph": "Sawyer",
+"c": 36,
+"optimum": 10
+},
+{
+"graph": "Sawyer",
+"c": 41,
+"optimum": 8
+},
+{
+"graph": "Sawyer",
+"c": 47,
+"optimum": 7
+},
+{
+"graph": "Sawyer",
+"c": 54,
+"optimum": 7
+},
+{
+"graph": "Sawyer",
+"c": 75,
+"optimum": 5
+},
+{
+"graph": "Scholl",
+"c": 1394,
+"optimum": 50
+},
+{
+"graph": "Scholl",
+"c": 1422,
+"optimum": 50
+},
+{
+"graph": "Scholl",
+"c": 1452,
+"optimum": 48
+},
+{
+"graph": "Scholl",
+"c": 1483,
+"optimum": 47
+},
+{
+"graph": "Scholl",
+"c": 1515,
+"optimum": 46
+},
+{
+"graph": "Scholl",
+"c": 1548,
+"optimum": 46
+},
+{
+"graph": "Scholl",
+"c": 1584,
+"optimum": 44
+},
+{
+"graph": "Scholl",
+"c": 1620,
+"optimum": 44
+},
+{
+"graph": "Scholl",
+"c": 1659,
+"optimum": 42
+},
+{
+"graph": "Scholl",
+"c": 1699,
+"optimum": 42
+},
+{
+"graph": "Scholl",
+"c": 1742,
+"optimum": 40
+},
+{
+"graph": "Scholl",
+"c": 1787,
+"optimum": 39
+},
+{
+"graph": "Scholl",
+"c": 1834,
+"optimum": 38
+},
+{
+"graph": "Scholl",
+"c": 1883,
+"optimum": 37
+},
+{
+"graph": "Scholl",
+"c": 1935,
+"optimum": 36
+},
+{
+"graph": "Scholl",
+"c": 1991,
+"optimum": 35
+},
+{
+"graph": "Scholl",
+"c": 2049,
+"optimum": 34
+},
+{
+"graph": "Scholl",
+"c": 2111,
+"optimum": 33
+},
+{
+"graph": "Scholl",
+"c": 2177,
+"optimum": 32
+},
+{
+"graph": "Scholl",
+"c": 2247,
+"optimum": 31
+},
+{
+"graph": "Scholl",
+"c": 2322,
+"optimum": 30
+},
+{
+"graph": "Scholl",
+"c": 2402,
+"optimum": 29
+},
+{
+"graph": "Scholl",
+"c": 2488,
+"optimum": 28
+},
+{
+"graph": "Scholl",
+"c": 2580,
+"optimum": 27
+},
+{
+"graph": "Scholl",
+"c": 2680,
+"optimum": 26
+},
+{
+"graph": "Scholl",
+"c": 2787,
+"optimum": 25
+},
+{
+"graph": "Tonge",
+"c": 160,
+"optimum": 23
+},
+{
+"graph": "Tonge",
+"c": 168,
+"optimum": 22
+},
+{
+"graph": "Tonge",
+"c": 176,
+"optimum": 21
+},
+{
+"graph": "Tonge",
+"c": 185,
+"optimum": 20
+},
+{
+"graph": "Tonge",
+"c": 195,
+"optimum": 19
+},
+{
+"graph": "Tonge",
+"c": 207,
+"optimum": 18
+},
+{
+"graph": "Tonge",
+"c": 220,
+"optimum": 17
+},
+{
+"graph": "Tonge",
+"c": 234,
+"optimum": 16
+},
+{
+"graph": "Tonge",
+"c": 251,
+"optimum": 14
+},
+{
+"graph": "Tonge",
+"c": 270,
+"optimum": 14
+},
+{
+"graph": "Tonge",
+"c": 293,
+"optimum": 13
+},
+{
+"graph": "Tonge",
+"c": 320,
+"optimum": 11
+},
+{
+"graph": "Tonge",
+"c": 364,
+"optimum": 10
+},
+{
+"graph": "Tonge",
+"c": 410,
+"optimum": 9
+},
+{
+"graph": "Tonge",
+"c": 468,
+"optimum": 8
+},
+{
+"graph": "Tonge",
+"c": 527,
+"optimum": 7
+},
+{
+"graph": "Warnecke",
+"c": 54,
+"optimum": 31
+},
+{
+"graph": "Warnecke",
+"c": 56,
+"optimum": 29
+},
+{
+"graph": "Warnecke",
+"c": 58,
+"optimum": 29
+},
+{
+"graph": "Warnecke",
+"c": 60,
+"optimum": 27
+},
+{
+"graph": "Warnecke",
+"c": 62,
+"optimum": 27
+},
+{
+"graph": "Warnecke",
+"c": 65,
+"optimum": 25
+},
+{
+"graph": "Warnecke",
+"c": 68,
+"optimum": 24
+},
+{
+"graph": "Warnecke",
+"c": 71,
+"optimum": 23
+},
+{
+"graph": "Warnecke",
+"c": 74,
+"optimum": 22
+},
+{
+"graph": "Warnecke",
+"c": 78,
+"optimum": 21
+},
+{
+"graph": "Warnecke",
+"c": 82,
+"optimum": 20
+},
+{
+"graph": "Warnecke",
+"c": 86,
+"optimum": 19
+},
+{
+"graph": "Warnecke",
+"c": 92,
+"optimum": 17
+},
+{
+"graph": "Warnecke",
+"c": 97,
+"optimum": 17
+},
+{
+"graph": "Warnecke",
+"c": 104,
+"optimum": 15
+},
+{
+"graph": "Warnecke",
+"c": 111,
+"optimum": 14
+},
+{
+"graph": "Wee-mag",
+"c": 28,
+"optimum": 63
+},
+{
+"graph": "Wee-mag",
+"c": 29,
+"optimum": 63
+},
+{
+"graph": "Wee-mag",
+"c": 30,
+"optimum": 62
+},
+{
+"graph": "Wee-mag",
+"c": 31,
+"optimum": 62
+},
+{
+"graph": "Wee-mag",
+"c": 32,
+"optimum": 61
+},
+{
+"graph": "Wee-mag",
+"c": 33,
+"optimum": 61
+},
+{
+"graph": "Wee-mag",
+"c": 34,
+"optimum": 61
+},
+{
+"graph": "Wee-mag",
+"c": 35,
+"optimum": 60
+},
+{
+"graph": "Wee-mag",
+"c": 36,
+"optimum": 60
+},
+{
+"graph": "Wee-mag",
+"c": 37,
+"optimum": 60
+},
+{
+"graph": "Wee-mag",
+"c": 38,
+"optimum": 60
+},
+{
+"graph": "Wee-mag",
+"c": 39,
+"optimum": 60
+},
+{
+"graph": "Wee-mag",
+"c": 40,
+"optimum": 60
+},
+{
+"graph": "Wee-mag",
+"c": 41,
+"optimum": 59
+},
+{
+"graph": "Wee-mag",
+"c": 42,
+"optimum": 55
+},
+{
+"graph": "Wee-mag",
+"c": 43,
+"optimum": 50
+},
+{
+"graph": "Wee-mag",
+"c": 45,
+"optimum": 38
+},
+{
+"graph": "Wee-mag",
+"c": 46,
+"optimum": 34
+},
+{
+"graph": "Wee-mag",
+"c": 47,
+"optimum": null,
+"lb": 32,
+"ub": 33
+},
+{
+"graph": "Wee-mag",
+"c": 49,
+"optimum": 32
+},
+{
+"graph": "Wee-mag",
+"c": 50,
+"optimum": 32
+},
+{
+"graph": "Wee-mag",
+"c": 52,
+"optimum": 31
+},
+{
+"graph": "Wee-mag",
+"c": 54,
+"optimum": 31
+},
+{
+"graph": "Wee-mag",
+"c": 56,
+"optimum": 30
+}
+]
