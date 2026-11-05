@@ -11,6 +11,11 @@ and finite buffers, and a small experiment on whether a language model can rebal
 from a plain language change request. every number below comes from a run whose json is
 committed next to it in `results/`.
 
+**try it: [noorps.github.io/ladder](https://noorps.github.io/ladder/)**. drag the tasks of sawyer's 30 task
+line between stations, watch the takt bars and the metrics move, compare your balance with the proven optimum,
+then crank the variability and buffer sliders to see how much of it survives a simulation. it is `web/`,
+plain html and js, no build step; it also works opened as a local file.
+
 ![station loading before and after balancing](results/win11-20261104/station_loading.png)
 
 the chart is sawyer's 30 task instance at a 41 s cycle time. left: tasks dropped into stations
@@ -332,6 +337,23 @@ what the agent run says:
   one, and would wait minutes for it. rpw answers in a millisecond and is always feasible.
 <!-- /NOTES -->
 
+## the demo
+
+`web/index.html` is the whole thing: vanilla js, no framework, no build step. `tools/export_web.py` writes
+`web/data/instance.json` (sawyer's tasks, times and predecessors), `web/data/optimal.json` (the cp-sat
+proven optimal assignment at cycle times 30, 36, 41 and 47, with the rpw assignment beside each) and
+`web/data/data.js` (the same data as a script, so the page works from `file://`).
+
+the simulation in the browser is `web/sim.js`, a rewrite of `ladder/sim.py` with the same random number
+generator (mulberry32 seeded per station, box-muller normals, lognormal by mean and cv), so the two see the
+same service times. `web/data/sim_check.json` holds a 20 cell grid of (cv, buffer) on the sawyer c = 30
+optimal balance with throughput from both; `tests/test_web_sim.py` reruns the js side in node and asserts
+agreement within 2%. the measured worst relative difference is in that file (it is at floating point
+precision, because the random streams are identical, not because the tolerance is loose).
+
+keyboard: tab to a task, arrow keys move it one station left or right, home and end to the first and the
+spare last station, delete sends it back to the tray. every rejected move says which task is in the way.
+
 ## where it falls short
 
 - **no changeovers, no mixed models.** one product, one takt. real lines run several variants
@@ -352,6 +374,8 @@ what the agent run says:
   measures what those models do with that prompt, not what language models can do.
 - **salbp ignores everything spatial.** no station lengths, no tooling conflicts, no zoning
   constraints, no two-sided lines.
+- **the demo's cycle time slider has four stops**, the ones with a precomputed proven optimum. one and two
+  second tasks are fiddly to grab, and on a phone the board scrolls sideways inside its own box.
 
 ## reproduce
 

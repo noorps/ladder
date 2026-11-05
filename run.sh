@@ -6,6 +6,7 @@ set -euo pipefail
 label="${1:?usage: bash run.sh <label>}"
 cd "$(dirname "$0")"
 python tools/fetch_data.py
+python tools/export_web.py
 python -m pytest -q tests
 python bench/run_benchmark.py --label "$label" --time-limit 20 --sample 40
 python bench/comsoal_sweep.py --label "$label"
@@ -17,4 +18,5 @@ else
   echo "COHERE_API_KEY not set, skipping the agent runs"
 fi
 python bench/charts.py --label "$label"
+python tools/fill_readme.py --label "$label"
 echo "done: results/$label"
