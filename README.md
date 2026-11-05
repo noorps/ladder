@@ -339,7 +339,7 @@ what the agent run says:
 
 ## the demo
 
-`web/index.html` is the whole thing: vanilla js, no framework, no build step. `tools/export_web.py` writes
+`web/index.html` mounts the board; the board itself is `web/board.js` with `web/board.css`, one component that the demo page and the homepage of purnoor.dev both use. vanilla js, no framework, no build step. `tools/export_web.py` writes
 `web/data/instance.json` (sawyer's tasks, times and predecessors), `web/data/optimal.json` (the cp-sat
 proven optimal assignment at cycle times 30, 36, 41 and 47, with the rpw assignment beside each) and
 `web/data/data.js` (the same data as a script, so the page works from `file://`).
@@ -349,7 +349,10 @@ generator (mulberry32 seeded per station, box-muller normals, lognormal by mean 
 same service times. `web/data/sim_check.json` holds a 20 cell grid of (cv, buffer) on the sawyer c = 30
 optimal balance with throughput from both; `tests/test_web_sim.py` reruns the js side in node and asserts
 agreement within 2%. the measured worst relative difference is in that file (it is at floating point
-precision, because the random streams are identical, not because the tolerance is loose).
+precision, because the random streams are identical, not because the tolerance is loose). that is also the
+limit of the test: because the js reproduces the python random streams exactly, agreement confirms the two
+implementations are transcribed identically, not that two independent implementations reach the same answer.
+a mistake shared by both would pass.
 
 keyboard: tab to a task, arrow keys move it one station left or right, home and end to the first and the
 spare last station, delete sends it back to the tray. every rejected move says which task is in the way.
