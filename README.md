@@ -301,10 +301,36 @@ models are cohere's command family because that is the api key i had.
 <!-- TABLE: agent -->
 | model | feasible | mean gap when feasible | matched optimum | beats rpw | ties rpw | loses to rpw | failure modes | mean latency |
 |---|---|---|---|---|---|---|---|---|
-| command-a-plus-05-2026 | (run incomplete: 31 scenarios) |
+| command-a-03-2025 | 2/36 | 10.0% | 1/2 | 0 | 1 | 1 | cycle_time_exceeded 12, missing_tasks 11, precedence_and_cycle_time 8, precedence_violation 3 | 6 s |
+| command-a-plus-05-2026 | 22/36 | 0.5% | 21/22 | 4 | 18 | 0 | no_json 13, cycle_time_exceeded 1 | 93 s |
+
+command-a-03-2025 feasibility by change type: fixture 1/9, added_step 0/9, takt 1/9, precedence 0/9; rpw was beatable (rpw > optimum) in 9 scenarios.
+command-a-plus-05-2026 feasibility by change type: fixture 6/9, added_step 8/9, takt 5/9, precedence 3/9; rpw was beatable (rpw > optimum) in 9 scenarios.
 <!-- /TABLE -->
 
 <!-- NOTES: agent -->
+what the agent run says:
+
+- **command-a-plus-05-2026 (a reasoning model) returned a usable balance on 22 of 36
+  scenarios.** when it did answer, the answer was very good: 21 of 22 matched the cp-sat
+  optimum, it beat rpw on 4 of the 9 scenarios where rpw was beatable and never lost to it.
+- **the dominant failure mode is not a wrong answer, it is no answer.** all 13 `no_json`
+  failures are the model hitting the 32000 output token limit while still reasoning (100k+
+  characters of thinking) and never emitting the json. the per-scenario json records the
+  finish reason and token counts. each of those calls took two to three minutes.
+- **the one infeasible answer overloaded a station** (36 s on a 26 s takt after a task grew
+  from 5 to 7 s), so applying the change in prose to the arithmetic is where it slipped.
+- **new precedence constraints were the hardest change** (3 of 9 feasible) and a slower task
+  the easiest (8 of 9). a changed takt sat in between (5 of 9).
+- **command-a-03-2025 (no reasoning) answered in six seconds and was almost never right: 2 of
+  36 feasible.** it answered instantly with about 150 tokens and the answers broke the cycle
+  time on 20 scenarios, dropped tasks on 11, and put a task ahead of its predecessor on 11
+  (some answers did two of these at once). it never beat rpw. this is the asserted-positive
+  trap: the output looks like a balance and reads confidently, and without the validator it
+  would have been reported as one.
+- a line engineer could use the feasible answers as they are, but could not rely on getting
+  one, and would wait minutes for it. rpw answers in a millisecond and is always feasible.
+<!-- /NOTES -->
 
 ## where it falls short
 

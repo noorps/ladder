@@ -12,7 +12,7 @@ python bench/comsoal_sweep.py --label "$label"
 python bench/run_sim.py --label "$label"
 if [ -n "${COHERE_API_KEY:-}" ]; then
   python bench/run_agent.py --label "$label" --model command-a-plus-05-2026 --max-tokens 32000
-  python bench/run_agent.py --label "$label" --model command-a-03-2025 --max-tokens 32000
+  python bench/run_agent.py --label "$label" --model command-a-03-2025 --max-tokens 8192
 else
   echo "COHERE_API_KEY not set, skipping the agent runs"
 fi
