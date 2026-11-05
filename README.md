@@ -11,7 +11,7 @@ and finite buffers, and a small experiment on whether a language model can rebal
 from a plain language change request. every number below comes from a run whose json is
 committed next to it in `results/`.
 
-**try it: [noorps.github.io/ladder](https://noorps.github.io/ladder/)**. drag the tasks of sawyer's 30 task
+**try it: [noorps.github.io/ladder](https://noorps.github.io/ladder/)** (also at [purnoor.dev/ladder](https://purnoor.dev/ladder/)). drag the tasks of sawyer's 30 task
 line between stations, watch the takt bars and the metrics move, compare your balance with the proven optimum,
 then crank the variability and buffer sliders to see how much of it survives a simulation. it is `web/`,
 plain html and js, no build step; it also works opened as a local file.
